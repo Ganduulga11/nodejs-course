@@ -1,5 +1,5 @@
-var HelloWorld = function () {
-    console.log("Hello world !");
-};
+const path = require('path');
 
-HelloWorld();
+const dirname = path.parse(__dirname);
+
+console.log(dirname.dir);
