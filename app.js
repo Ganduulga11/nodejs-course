@@ -1,5 +1,3 @@
-var HelloWorld = function () {
-    console.log("Hello world !");
-};
+const logger = require("./logger");
 
-HelloWorld();
+logger("error");
